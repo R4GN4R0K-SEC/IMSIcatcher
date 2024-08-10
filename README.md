@@ -1,38 +1,37 @@
 # IMSIcatcher
 
-#
-#     ,-. .
-#      / \  `.  __..-,O
-#     :   \ --''_..-'.'
-#     |    . .-' `. '.
-#     :     .     .`.'
-#      \     `.  /  ..
-#       \      `.   ' .
-#        `,       `.   \
-#       ,|,`.        `-.\
-#      '.||  ``-...__..-`
-#       |  |
-#       |__|
-#       /||\
-#      //||\\
-#     // || \\
-#  __//__||__\\__
-# '--------------'
-#
-# Dubex 20 jan 2022 guide to installing software / cloning git repos.
-#  V. Keld Norman, kno@Dubex.dk
-#
-# This text can be found here: https://www.lostserver.com/static/imsi2022.txt
-#
-# - This guide was made on an Ubuntu 20.04.3 LTS also called "focal"
-#
-# Install Ubuntu 20.04 LTS 
-#
-# Check all the boxes on the "Ubuntu Software" tab within Software & Updates.
-#
-# .. then login so you have a shell / prompt..
 
-# Install sudo - or shift user to root
+       ,-..`.  __..-,O
+     :   \ --''_..-'.'
+     |    . .-' `. '.
+     :     .     .`.'
+      \     `.  /  ..
+       \      `.   ' .
+        `,       `.   \
+       ,|,`.        `-.\
+      '.||  ``-...__..-`
+       |  |
+       |__|
+       /||\
+       //||\\
+      // || \\
+   __//__||__\\__
+  '--------------'
+ 
+### Dubex 20 jan 2022 guide to installing software / cloning git repos.
+###  V. Keld Norman, kno@Dubex.dk
+#
+### This text can be found here: https://www.lostserver.com/static/imsi2022.txt
+#
+##6# - This guide was made on an Ubuntu 20.04.3 LTS also called "focal"
+#
+#### Install Ubuntu 20.04 LTS 
+#
+#### Check all the boxes on the "Ubuntu Software" tab within Software & Updates.
+#
+####.. then login so you have a shell / prompt..
+
+#### Install sudo - or shift user to root
 su - root
 apt-get update -qq -y && apt-get install -y sudo
 
